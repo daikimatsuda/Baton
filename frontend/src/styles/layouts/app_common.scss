@@ -1,0 +1,58 @@
+/* ヘッダー(navbar) */
+.navbar{
+  border-bottom: 1px solid #a29080;
+  background-color: #233B6C;
+}
+.navbar .navbar-collapse{
+  flex-grow: 0;
+}
+.navbar .navbar-brand{
+  height: 50px;
+}
+.navbar .navbar-brand img{
+  height: 100%;
+}
+.navbar .navbar-nav .active > .nav-link{
+  color: #233B6C;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: rgba(251,251,241,1);
+}
+
+/* フッター */
+#footer{
+  background-color: #233B6C;
+}
+#footer .container{
+  color: #e0c7b2;
+}
+#footer .footer-ttl{
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 1.5rem 0;
+  color: #ffce11;
+}
+#footer address p,
+#footer #footer-news li{
+  margin-bottom: 0.5rem;
+}
+#footer #footer-news ul{
+  margin: 0;
+  padding: 0
+}
+#footer #footer-news ul{
+  list-style: none;
+}
+#footer #footer-news li span{
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+#footer #copyright{
+  border-top: 1px solid #774831;
+  background-color: #401f0f;
+  color: #e0c7b2;
+}
+#footer img {
+      width: 360px;
+}
